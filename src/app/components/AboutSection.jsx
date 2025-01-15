@@ -17,7 +17,7 @@ const TAB_DATA = [
             <li>JavaScript</li>
           </ul>
         </div>
-  
+
         <div>
           <h3 className="font-bold underline">Backend Development:</h3>
           <ul className="list-disc pl-2">
@@ -30,7 +30,7 @@ const TAB_DATA = [
             <li>API</li>
           </ul>
         </div>
-  
+
         <div>
           <h3 className="font-bold underline">Frontend:</h3>
           <ul className="list-disc pl-2">
@@ -42,7 +42,7 @@ const TAB_DATA = [
             <li>Bootstrap</li>
           </ul>
         </div>
-  
+
         <div>
           <h3 className="font-bold underline">Machine Learning & Deep Learning:</h3>
           <ul className="list-disc pl-2">
@@ -61,7 +61,7 @@ const TAB_DATA = [
             <li>Seaborn</li>
           </ul>
         </div>
-  
+
         <div>
           <h3 className="font-bold underline">Natural Language Processing (NLP):</h3>
           <ul className="list-disc pl-2">
@@ -70,7 +70,7 @@ const TAB_DATA = [
             <li>Hyperparameter Tuning</li>
           </ul>
         </div>
-  
+
         <div>
           <h3 className="font-bold underline">Development Tools & Technologies:</h3>
           <ul className="list-disc pl-2">
@@ -82,13 +82,13 @@ const TAB_DATA = [
         </div>
       </div>
     ),
-  },  
+  },
   {
     title: "Education",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li><b>St. Joseph's College of Engineering, B.E in Electronics and Communication Engineering, </b> <br/>2021 - 2024 | Chennai, India 7.89 CGPA (till 7th sem)</li>
+        <li><b>St. Joseph&apos;s College of Engineering, B.E in Electronics and Communication Engineering, </b> <br/>2021 - 2024 | Chennai, India 7.89 CGPA (till 7th sem)</li>
         <li><b>PSB Polytechnic College, Diploma in ECE,</b> <br/>2018 - 2021 | Chennai, India 87%</li>
         <li><b>Sri Sankara Vidyashramam Mat.Hr. Sec School, </b> <br/>10th SSLC 2017 - 2018| Chennai, India 65%</li>
       </ul>
@@ -123,11 +123,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="./images/pc.png" width={500} height={500} />
+        <Image src="./images/pc.png" width={500} height={500} alt="Profile Picture" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hello! I am an Electronics and Communication Engineering (ECE) student who discovered a profound interest in Information Technology (IT) after initially pursuing my core studies. Passionate about the dynamic world of technology, I made the decision to align my career with IT to explore and contribute to this rapidly evolving field. Currently seeking job opportunities that allow me to leverage my existing skills while remaining open to training in new technologies as a dedicated employee. Eager to embark on a fulfilling professional journey and contribute my enthusiasm for IT to innovative projects.
+            Hello! I am an Electronics and Communication Engineering (ECE) student who discovered a profound interest in Information Technology (IT) after initially pursuing my core studies. Passionate about the dynamic world of technology, I made the decision to align my career with IT to explore and contribute to this rapidly evolving field. Currently seeking job opportunities that allow me to leverage my existing skills while remaining open to training in new technologies as a dedicated employee. Eager to embark on a fulfilling professional journey and contribute my enthusiasm for IT to innovative projects.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
