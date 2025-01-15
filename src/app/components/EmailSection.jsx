@@ -51,7 +51,7 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m searching for new chances, and my email is never closed. I'll do my best to respond to you, whether you have a query or are just wishing to say hello!
+          I&apos;m searching for new chances, and my email is never closed. I&apos;ll do my best to respond to you, whether you have a query or are just wishing to say hello!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/feelthevenom">
