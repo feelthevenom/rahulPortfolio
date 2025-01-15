@@ -5,6 +5,17 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 6,
+    title: "Full-stack Roadmap",
+    description: "Implemented semantic segmentation for plant disease detection using pre-trained U-Net with ResNet50 backbone.Achieved an IoU Score of 0.8797 and a Dice Loss of 0.0715 and developed comprehensive documentation and analysis in Jupyter Notebook, published on Kaggle.",
+    image: "/images/projects/leaf_segmentation.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://www.kaggle.com/code/feelthevenom/leaf-disease-segmentation-using-unet-model",
+    previewUrl: "/",
+  },
+
+  {
+    
     id: 1,
     title: "Fleet Managment",
     description: "During SIH, we built a Fleet Management Website integrating hardware with cloud services. Our solution optimizes real-time tracking and monitoring of vehicle fleets, showcasing skills in software and hardware integration.",
@@ -49,15 +60,6 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-  // {
-  //   id: 6,
-  //   title: "Full-stack Roadmap",
-  //   description: "Project 5 description",
-  //   image: "/images/projects/6.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
 ];
 
 const ProjectsSection = () => {

@@ -10,7 +10,7 @@ const HeroSection = () => {
 
   const handleDownload = () => {
     // Construct the path to your PDF in the public directory
-    const pdfPath = process.env.PUBLIC_URL + '/CV.pdf';
+    const pdfPath = process.env.PUBLIC_URL + '14-1-25.pdf';
 
     // Create an anchor element
     const anchor = document.createElement('a');
@@ -19,7 +19,7 @@ const HeroSection = () => {
     anchor.href = pdfPath;
 
     // Set the download attribute with the desired file name
-    anchor.download = 'CV.pdf';
+    anchor.download = 'RahulResume.pdf';
 
     // Trigger a click on the anchor element to start the download
     document.body.appendChild(anchor);
@@ -48,12 +48,12 @@ const HeroSection = () => {
               sequence={[
                 "RAHUL R",
                 1000,
-                "Web Developer",
+                // "Web Developer",
+                // 1000,
+                "Developer",
                 1000,
-                "Software Developer",
-                1000,
-                "Student",
-                1000,
+                // "Student",
+                // 1000,
               ]}
               wrapper="span"
               speed={50}
