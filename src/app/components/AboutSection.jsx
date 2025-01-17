@@ -112,7 +112,7 @@ const AboutSection = () => {
         <Image src="./images/pc.png" width={500} height={500} alt="Profile Picture" className="w-full h-auto md:w-1/2 lg:w-full" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
+          <p className="text-base sm:text-s md:text-xl lg:text-l">
   Hello! I am an Electronics and Communication Engineering (ECE) student who discovered a profound interest in Information Technology (IT) after initially pursuing my core studies. Passionate about the dynamic world of technology, I made the decision to align my career with IT to explore and contribute to this rapidly evolving field. Currently seeking job opportunities that allow me to leverage my existing skills while remaining open to training in new technologies as a dedicated employee. Eager to embark on a fulfilling professional journey and contribute my enthusiasm for IT to innovative projects.
 </p>
 
