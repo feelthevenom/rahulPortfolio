@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <h3 className="font-bold underline">Programming Languages:</h3>
           <ul className="list-disc pl-2">
@@ -94,20 +94,6 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  // {
-  //   title: "Certifications",
-  //   id: "certifications",
-  //   content: (
-  //     <ul className="list-disc pl-2">
-  //       <li><b>C programming</b> -(Infosys Springboard)</li>
-  //       <li><b>PyTorch for Deep Learning</b> -(Udemy)</li>
-  //       <li><b>Full Stack Web Development</b> -(Udemy)</li>
-  //       <li><b>Python</b> -(Udemy)</li>
-  //       <li><b>DBMS </b>-(NPTEL)</li>
-  //       <li><b>PowerBI</b> -(EY Micro-Skilling)</li>
-  //     </ul>
-  //   ),
-  // },
 ];
 
 const AboutSection = () => {
@@ -122,13 +108,14 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="./images/pc.png" width={500} height={500} alt="Profile Picture" />
+      <div className="md:grid md:grid-cols-1 lg:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <Image src="./images/pc.png" width={500} height={500} alt="Profile Picture" className="w-full h-auto md:w-1/2 lg:w-full" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            Hello! I am an Electronics and Communication Engineering (ECE) student who discovered a profound interest in Information Technology (IT) after initially pursuing my core studies. Passionate about the dynamic world of technology, I made the decision to align my career with IT to explore and contribute to this rapidly evolving field. Currently seeking job opportunities that allow me to leverage my existing skills while remaining open to training in new technologies as a dedicated employee. Eager to embark on a fulfilling professional journey and contribute my enthusiasm for IT to innovative projects.
-          </p>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
+  Hello! I am an Electronics and Communication Engineering (ECE) student who discovered a profound interest in Information Technology (IT) after initially pursuing my core studies. Passionate about the dynamic world of technology, I made the decision to align my career with IT to explore and contribute to this rapidly evolving field. Currently seeking job opportunities that allow me to leverage my existing skills while remaining open to training in new technologies as a dedicated employee. Eager to embark on a fulfilling professional journey and contribute my enthusiasm for IT to innovative projects.
+</p>
+
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
@@ -144,13 +131,6 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            {/* <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
-            </TabButton> */}
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
